@@ -17,9 +17,14 @@ My goal was to ultimately build a model to predict whether the anonymous poem St
 
 When working on Pearl and Patience, I researched pretrained Middle English tokenizers, but couldn't find anything. The Classical Language Toolkit offers embeddings for a variety of ancient languages including Latin, Greek, Old Norse, Classical Chinese, and more, but did not have anything for Middle English (I later [contributed to this project!]([url](https://docs.cltk.org/en/latest/cltk.embeddings.html#cltk.embeddings.processes.MiddleEnglishEmbeddingsProcess)https://docs.cltk.org/en/latest/cltk.embeddings.html#cltk.embeddings.processes.MiddleEnglishEmbeddingsProcess)).
 
-I decided to build my own Middle English embedding. I found a sizeable Middle English corpus, scraped from the University of Michigan's Corpus of Middle English Prose and Verse and assembled by Nathan Stringham at the University of Utah. With assitance from Akshay Bareja and Danai Adkisson (Duke), I built my own gensim word2vec embedding. It returns Mikolov's arithmetic!
+I decided to build my own Middle English embedding. I found a sizeable Middle English corpus, scraped from the University of Michigan's Corpus of Middle English Prose and Verse and assembled by Nathan Stringham at the University of Utah. With assitance from Akshay Bareja and Danai Adkisson (Duke), I built my own gensim word2vec embedding. It returns Mikolov's arithmetic: king-man+woman = queen. 
 
 ![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/0d068640-6073-4d48-a322-8e8424e4da9d)
 ![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/61cc7398-fcbf-4c49-a3a1-768185b41b14)
+
+The drawings are from [this blog.](From https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
+![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/08d505c0-6a43-4484-ab32-c95859bacd99))
+
+Here's the arithmetic on my word2vec model:
 
 ![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/ad169868-e00f-41a1-97d1-0aeb03c5153e)
