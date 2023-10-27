@@ -13,5 +13,6 @@ Pearl is a much-celebrated 14th-century medieval poem written in West Midlands M
 
 My goal was to ultimately build a model to predict whether the anonymous poem St. Erkenwald was authored by the same poet who authored Pearl, Patience, Sir Gawain and the Green Knight,  and Cleanness. However, I ultimately decided that due to the high variance between the poems (completely different themes, settings, and style of poetry) this wasn't a good computational project.
 
-## 2. I built a gensim word2vec embedding trained on a large Middle English corpus that returns Mikolav's arithmetic.
+## 2. Middle English gensim word2vec embedding
+
 
