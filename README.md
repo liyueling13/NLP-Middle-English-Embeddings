@@ -22,8 +22,7 @@ I decided to build my own Middle English embedding. I found a sizeable Middle En
 ![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/0d068640-6073-4d48-a322-8e8424e4da9d)
 ![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/61cc7398-fcbf-4c49-a3a1-768185b41b14)
 
-The drawings are from [this blog.](From https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
-![image](https://github.com/liyueling13/NLP-Middle-English-Embeddings/assets/81717153/08d505c0-6a43-4484-ab32-c95859bacd99))
+The drawings are from [this blog.]([url](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/))
 
 Here's the arithmetic on my word2vec model:
 
