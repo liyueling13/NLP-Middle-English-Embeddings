@@ -15,7 +15,7 @@ My goal was to ultimately build a model to predict whether the anonymous poem St
 
 ## Middle English gensim word2vec embedding
 
-When working on Pearl and Patience, I researched pretrained Middle English tokenizers, but couldn't find anything. The Classical Language Toolkit offers embeddings for a variety of ancient languages including Latin, Greek, Old Norse, Classical Chinese, and more, but did not have anything for Middle English (I later [contributed to this project!]([url](https://docs.cltk.org/en/latest/cltk.embeddings.html#cltk.embeddings.processes.MiddleEnglishEmbeddingsProcess)https://docs.cltk.org/en/latest/cltk.embeddings.html#cltk.embeddings.processes.MiddleEnglishEmbeddingsProcess)).
+When working on Pearl and Patience, I researched pretrained Middle English tokenizers, but couldn't find anything. The Classical Language Toolkit offers embeddings for a variety of ancient languages including Latin, Greek, Old Norse, Classical Chinese, and more, but did not have anything for Middle English. I later [contributed my Middle English word2vec model]([url](https://docs.cltk.org/en/latest/cltk.embeddings.html#cltk.embeddings.processes.MiddleEnglishEmbeddingsProcess)) to the CLTK!
 
 I decided to build my own Middle English embedding. I found a sizeable Middle English corpus, scraped from the University of Michigan's Corpus of Middle English Prose and Verse and assembled by Nathan Stringham at the University of Utah. With assitance from Akshay Bareja and Danai Adkisson (Duke), I built my own gensim word2vec embedding. It returns Mikolov's arithmetic: king-man+woman = queen. 
 
